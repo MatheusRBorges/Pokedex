@@ -1,0 +1,259 @@
+.normal {
+    background-color: #777777; 
+}
+.poison {
+    background-color: #b567ce;
+}
+.grass {
+    background-color: rgb(129, 240, 129);
+}
+.fire {
+    background-color:  #ff9d59;
+}
+.water {
+    background-color: #5090d6;
+}
+.fighting {
+    background-color:  #ce416b;
+}
+.flying {
+    background-color:  #89aae3;
+}
+.ground {
+    background-color:  #ec9d73;
+}
+.rock {
+    background-color:  #e9ddbb;
+}
+.bug {
+    background-color:  #9cdc1c;
+}
+.ghost {
+    background-color:  #5030ab;
+}
+.electric {
+    background-color:  #f1db75;
+}
+.psychic {
+    background-color:  #fa7179;
+}
+.ice {
+    background-color:  #73cec0;
+}
+.dragon {
+    background-color: #70b2ec;
+}
+.dark {
+    background-color: #7f68a8;
+}
+.steel {
+    background-color: #88acb9;
+}
+.fairy {
+    background-color: #f362ea;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+.conteudo {
+    padding: 0 0 3rem;
+}
+.botao {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 24px;
+    font-size: 2rem;
+
+}
+.botao button {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.703);
+}
+.content-pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    text-transform: capitalize;
+}
+.content-pokemon img {
+    width: 60%;
+    margin: 0 auto;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.626));
+}
+.imagem {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.id {
+    background-color: rgba(255, 255, 255, 0.703);
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 25px;
+    font-weight: 700;
+}
+.progress::-webkit-progress-bar {
+    border-radius: 10px;  
+}
+progress {
+    height: 15px;
+    color: black;
+}
+.tipos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.type {
+    width: 200px;
+    list-style: none;
+    padding: .25rem 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.425);
+    text-shadow: 1px 1px black;
+}
+.info {
+    display: flex;
+    font-weight: 800;
+    color: black;
+    justify-content: center;
+    padding: 1rem 0;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+}
+.status-poke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.name-status {
+    width: 150px;
+    margin-left: 32px;
+}
+.ataques {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 350px) {
+    .status-poke {
+        flex-direction: row;
+    }
+    .name-status {
+        margin-left: 0 !important;
+    }
+}
+@media screen and (min-width: 900px) {
+    .content-pokemon {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .detalhes {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+
+.normaltype,
+.normal::-webkit-progress-value {
+    background-color: #563317;
+}
+.poisontype,
+.poison::-webkit-progress-value {
+    background-color: purple;
+}
+.grasstype,
+.grass::-webkit-progress-value {
+    background-color: green;
+}
+.firetype,
+.fire::-webkit-progress-value {
+    background-color: #f87a21;
+}
+.watertype,
+.water::-webkit-progress-value {
+    background-color: #2D3192;
+}
+.fightingtype,
+.fighting::-webkit-progress-value {
+    background-color: #C6AC00;
+}
+.flyingtype,
+.flying::-webkit-progress-value {
+    background-color: #79DAFD;
+}
+.groundtype,
+.ground::-webkit-progress-value {
+    background-color: #d26124;
+}
+.rocktype,
+.rock::-webkit-progress-value {
+    background-color: #c5b78c;
+}
+.bugtype,
+.bug::-webkit-progress-value {
+    background-color: #FB151F;
+}
+.ghosttype,
+.ghost::-webkit-progress-value {
+    background-color: #212024;
+}
+.electrictype,
+.electric::-webkit-progress-value {
+    background-color: #f4d23c;
+}
+.psychictype,
+.psychic::-webkit-progress-value {
+    background-color: #d43c46;
+}
+.icetype,
+.ice::-webkit-progress-value {
+    background-color: #99e4d9;
+}
+.dragontype,
+.dragon::-webkit-progress-value {
+    background-color: #0b6dc3;
+}
+.darktype,
+.dark::-webkit-progress-value {
+    background-color: #403258;
+}
+.steeltype,
+.steel::-webkit-progress-value {
+    background-color: #5d7e8a;
+}
+.fairytype,
+.fairy::-webkit-progress-value {
+    background-color: #FE3178;
+}
