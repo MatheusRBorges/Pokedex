@@ -33,11 +33,11 @@
   </div>
     <ul>
       <li *ngFor="let status of pokemon.stats" class="status-poke">
-        <p class="name-status text-center text-capitalize">{{status.stat.name}}</p>
+        <p class="name-status text-center text-capitalize">{{status.stat.name}}&nbsp;</p>
         <div class="ataques">
-          <p>{{status.base_stat}}</p>
+          <p>{{status.base_stat}}&nbsp;</p>
           <progress class="progress  {{ pokemon.types[0].type.name }}" max="150"
-            value=" {{ status.base_stat}}"></progress>
+            value=" {{ status.base_stat}}">&nbsp;</progress>
         </div>
       </li>
     </ul>
